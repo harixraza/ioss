@@ -3,11 +3,11 @@ module.exports = ({ env }) => ({
     secret: 'EPY5YCin6Ew60k5QCYJuqw==',
   },
   apiToken: {
-    salt: env('API_TOKEN_SALT'),
+    salt: 'y+EbMvpug/1LitIGkKayfg==',
   },
   transfer: {
     token: {
-      salt: env('TRANSFER_TOKEN_SALT'),
+      salt: 'cMzCaDvUuKQpx6VpRFMyFg==',
     },
   },
 });
