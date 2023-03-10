@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   auth: {
-    secret: env('ADMIN_JWT_SECRET'),
+    secret: 'EPY5YCin6Ew60k5QCYJuqw==',
   },
   apiToken: {
     salt: env('API_TOKEN_SALT'),
